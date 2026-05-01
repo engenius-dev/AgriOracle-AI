@@ -33,6 +33,7 @@ Follow these steps to run the decision engine on your local machine.
    cd AgriOracle-AI
 
 2. **Set Up the Virtual Environment**
+
    It is recommended to use a virtual environment to manage dependencies.
 
    ```sh
@@ -49,6 +50,7 @@ Follow these steps to run the decision engine on your local machine.
    pip install -r requirements.txt
 
 4. **Configure Environment Variables**
+
    This project requires a Gemini API key for the Explainable AI features.
 
    1. Create a file named .env in the root directory.
@@ -58,6 +60,7 @@ Follow these steps to run the decision engine on your local machine.
    GEMINI_API_KEY=your_actual_api_key_here
 
 5. **Train the Model & Launch**
+
    Before launching the app, ensure the ML model is compiled from the dataset.
 
    ```sh
